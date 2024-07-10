@@ -1,7 +1,7 @@
 <?php
-include_once("images/templates/header.php");
-include_once("images/templates/nav.php");
-require_once("sql/includes/db_connect.php");
+include_once("templates/header.php");
+include_once("templates/nav.php");
+require_once("sql/db_connect.php");
 
 if(isset($_POST["send_message"])){
     $fullname = mysqli_real_escape_string($conn, addslashes($_POST["fullname"]));
@@ -52,6 +52,6 @@ if(isset($_POST["send_message"])){
         <input type="submit" class="button" value="Sign Up">
     </form>
 
-    <?php include_once("images/templates/footer.php"); ?>
+    <?php include_once("templates/footer.php"); ?>
 </body>
 </html>
