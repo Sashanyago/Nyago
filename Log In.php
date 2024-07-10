@@ -1,7 +1,7 @@
 <?php
-include_once("images/templates/header.php");
-include_once("images/templates/nav.php");
-require_once("sql/includes/db_connect.php");
+include_once("templates/header.php");
+include_once("templates/nav.php");
+require_once("sql/db_connect.php");
 
 if (isset($_POST["login"])) {
     $email = mysqli_real_escape_string($conn, addslashes($_POST["email"]));
@@ -49,6 +49,6 @@ if (isset($_POST["login"])) {
         <input type="submit" class="btn btn-default" name="login" value="Log In">
     </form>
 
-    <?php include_once("images/templates/footer.php"); ?>
+    <?php include_once("templates/footer.php"); ?>
 </body>
 </html>
