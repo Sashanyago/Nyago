@@ -19,8 +19,6 @@ if(isset($_POST["send_message"])){
     }
 }
 ?>
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
