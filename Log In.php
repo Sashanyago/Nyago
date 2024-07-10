@@ -3,7 +3,7 @@ include_once("templates/header.php");
 include_once("templates/nav.php");
 require_once("sql/db_connect.php");
 
-if (isset($_POST["login"])) {
+if (isset($_POST["log In"])) {
     $email = mysqli_real_escape_string($conn, addslashes($_POST["email"]));
     $password = mysqli_real_escape_string($conn, addslashes($_POST["password"]));
 
