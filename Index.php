@@ -28,8 +28,8 @@
 </nav>
 
 <?php
-include_once("sql/includes/db_connect.php");
-include_once("images/templates/header.php");
+include_once("sql/db_connect.php");
+include_once("templates/header.php");
 ?>
 
 <div class="container my-4">
