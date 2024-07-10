@@ -53,20 +53,6 @@ include_once("templates/header.php");
                     <th scope="col">Price</th>
                 </tr>
             </thead>
-            <tbody>
-                <?php
-                $sql = "SELECT name, description, price FROM services";
-                $result = $conn->query($sql);
-
-                if ($result->num_rows > 0) {
-                    while($row = $result->fetch_assoc()) {
-                        echo "<tr><td>{$row['name']}</td><td>{$row['description']}</td><td>Ksh.{$row['price']}</td></tr>";
-                    }
-                } else {
-                    echo "<tr><td colspan='3'>No services available</td></tr>";
-                }
-                ?>
-            </tbody>
         </table>
 
         <h2>Service Details Form</h2>
