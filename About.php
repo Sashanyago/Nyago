@@ -1,6 +1,6 @@
 <?php
-include_once("images/templates/header.php");
-include_once("images/templates/nav.php");
+include_once("templates/header.php");
+include_once("templates/nav.php");
 
 ?>
 
@@ -12,4 +12,4 @@ include_once("images/templates/nav.php");
     </p>
 </div>
 
-<?php include_once("images/templates/footer.php"); ?>
+<?php include_once("templates/footer.php"); ?>
