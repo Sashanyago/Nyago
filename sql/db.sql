@@ -44,15 +44,15 @@ CREATE TABLE products (
 
 -- Create a dummy data for testing purposes
 INSERT INTO users (fullname, gender, password, email, form, school, phone) VALUES
-('John Doe', 'Male', '$2y$10$e0N1p1.e.qk3lWYv9Q0dUuG5gQzN1h3h8K/pKKR/3Knci.RGAHg3i', 'john.doe@example.com', 4, 'Sample School', '1234567890');
+('Fling Smith', 'Male', 'halleluyah.1', 'fling.smith@gmail.com', 4, 'Sample School', '1234567890');
 
 INSERT INTO projects (project_name, description, start_date, end_date) VALUES
-('Project A', 'Description for project A', '2024-01-01', '2024-06-30'),
-('Project B', 'Description for project B', '2024-07-01', NULL);
+('Project 1', 'Description for project 1', '2025-01-01', '2025-06-30'),
+('Project 2', 'Description for project 2', '2025-07-01', NULL);
 
 INSERT INTO products (product_name, description, price, stock) VALUES
-('Product 1', 'Description for product 1', 99.99, 50),
-('Product 2', 'Description for product 2', 49.99, 100);
+('Product A', 'Description for product A', 1000, 5000),
+('Product B', 'Description for product B', 2000, 300);
 
 INSERT INTO messages (sender_name, sender_email, subject_line, message) VALUES
-('Jane Smith', 'jane.smith@example.com', 'Inquiry', 'This is a message for inquiry.');
+('Bling  Hats', 'bling.hats@gmail.com', 'Inquiry', 'This is a message for inquiry.');
