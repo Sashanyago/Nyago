@@ -1,0 +1,15 @@
+body {
+    background-color: turquoise;
+}
+h1 {
+    text-align: center;
+    color: aqua;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+.container {
+    margin-top: 20px;
+}
